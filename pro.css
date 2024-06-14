@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.logo img {
+  width: 140px;
+  margin-top: 15px;
+  height: 75px;
+}
+.navbar-collapse {
+  justify-content: right;
+  margin-left: 0px;
+  font-size: 18px;
+}
+.navbar navbar-expand-lg {
+  margin-right: -20%;
+}
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+}
+.carousel-caption h2 {
+  text-align: left !important;
+  padding-left: 5px;
+  color: papayawhip;
+  bottom: 5.5rem;
+}
+
+.carousel-caption p {
+  text-align: left !important;
+  color: papayawhip;
+  padding-left: 5px;
+  bottom: 5.5rem;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 5% !important;
+  z-index: 2;
+  display: flex;
+  padding: 0;
+  justify-content: left !important;
+  margin-right: 0% !important;
+  margin-bottom: 1rem;
+  margin-left: 0% !important;
+  list-style: none;
+}
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 2 auto;
+  width: 8px !important;
+  height: 8px !important;
+  padding: 0;
+  border: 2px solid #bb2228 !important;
+  border-radius: 50%;
+  margin-right: 2px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+.carousel-item img {
+  width: 100% !important;
+  margin-left: 0%;
+  margin-right: 40%;
+  border-radius: 10px;
+  height: 600px;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.card-back1 {
+  background-image: url("https://adhiinn.com/beta/img/student.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 170px;
+  margin-left: -40px;
+  border-radius: 6px;
+}
+.card-back2 {
+  background-image: url("https://adhiinn.com/beta/img/student.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 170px;
+  margin-left: -40px;
+  border-radius: 6px;
+}
+.card-back3 {
+  background-image: url("https://adhiinn.com/beta/img/student.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 170px;
+  margin-left: -40px;
+  border-radius: 6px;
+}
+
+.card {
+  padding: 0.2rem;
+  margin: 2% 0%;
+}
+
+.card-body h4 {
+  color: #bb2228;
+  margin-left: 25px;
+  padding-top: 10px;
+}
+
+.a {
+  color: #0f6fb6;
+  text-decoration: none;
+}
+.card-body a i {
+  font-size: 40px;
+  color: #fff;
+  background: #106eb6;
+  border-radius: 57%;
+  padding: 3px 8px;
+  margin-left: 25px;
+  padding-left: 9px;
+}
+.first-section {
+  padding: 5% 0%;
+  background: #fafbfb;
+  margin: 10% -3%;
+}
+.second-section {
+  margin: 5%;
+}
+
+.third-section {
+  padding: 5% 0%;
+  background: #fafbfb;
+  margin: 5% 0%;
+}
+
+.fourth-section {
+  margin: 5%;
+}
+.first-img img {
+  width: 97%;
+  border-radius: 10px;
+  height: 400px;
+  margin-left: 5px;
+}
+.first-img1 img {
+  width: 97%;
+  border-radius: 10px;
+  margin-left: 2% !important;
+  margin: 2%;
+}
+.first-img2 img {
+  width: 103%;
+  border-radius: 10px;
+  height: 400px;
+  margin-left: -6px;
+}
+.text-section h2 {
+  color: #106eb6;
+}
+.text-section2 h2 {
+  color: #106eb6;
+}
+.text-section3 h2 {
+  color: #106eb6;
+}
+.text-section4 h2 {
+  color: #106eb6;
+}
+
+.text-section {
+  position: relative;
+  margin-top: 10%;
+  margin-left: 4px;
+}
+.text-section2 {
+  margin-left: -8%;
+  margin-top: 19%;
+}
+.text-section3 {
+  margin-left: -2%;
+  margin-top: 24px;
+}
+.text-section4 {
+  margin-left: -28px;
+}
+.second-img img {
+  width: 115%;
+  border-radius: 10px;
+  height: 420px;
+  margin-left: -27px;
+}
+.col-md-3 h4 {
+  color: #bb2228;
+}
+.footer-title li a {
+  text-decoration: none;
+  color: #106eb6;
+  font-size: 20px;
+}
+.footer-title li {
+  list-style: none;
+  margin-left: 2% 0%;
+}
+.a {
+  text-decoration: none;
+  color: #0f6fb6;
+}
+.footer-title a i {
+  font-size: 30px;
+  padding-right: 10px;
+  color: #1070b7;
+}
+.ending-title {
+  text-align: center;
+}
