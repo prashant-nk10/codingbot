@@ -1,2 +1,2 @@
-<h1>HTML CSS AND BOOTSTAP</h1>
+<h1>HTML CSS AND BOOTSTRAP</h1>
 Simple Static
